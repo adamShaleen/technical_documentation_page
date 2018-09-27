@@ -1,0 +1,38 @@
+#container {
+    border: 1px solid black;
+    line-height: 1.5
+}
+
+#navbar {
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+#navbar h2 {
+    font-size: 20px;
+}
+
+#navbar li {
+    font-size: 18px;
+}
+
+#main-doc {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+#main-doc h2 {
+    font-size: 18px;
+}
+
+@media(min-width: 768px) {
+    #container {
+        display: flex;
+    }
+    #navbar {
+        width: 25%;
+    }
+    #main-doc {
+        width: 75%;
+    }
+}
